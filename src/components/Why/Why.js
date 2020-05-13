@@ -13,7 +13,7 @@ import Health from '../../assets/icons/health.png';
 
 export default function Why(){
     return (
-        <Container>
+        <Container className="why-container">
             <div className="section-title" data-aos="fade-up">
                 <h2>Why Book With Us</h2>
             </div>

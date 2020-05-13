@@ -25,7 +25,7 @@ export default function Popular(){
 
         {/* <div className="row popular-container" data-aos="fade-up"> */}
 
-        <Container data-aos="fade-up">
+        <Container className="popular-container" data-aos="fade-up">
         <CardColumns>
             <Card style={{ width: '15rem' }}>
                 <div className="popular-item">
