@@ -1,7 +1,7 @@
 import React from 'react';
-import './ResultsForm.css';
+import './Nav.css';
 
-export default function ResultsForm(){
+export default function Nav(){
     return (
         <div>
         </div>
