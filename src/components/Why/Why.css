@@ -1,0 +1,12 @@
+.col {
+    align-self: center;
+    justify-content: space-around;
+    align-content: space-around;
+    text-align: center;
+}
+
+.why-icon {
+    margin-bottom: 13px;
+    height: 72px;
+    width: 72px;
+}
