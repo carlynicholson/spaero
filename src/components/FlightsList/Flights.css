@@ -3,15 +3,16 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    justify-self: center;
     margin: 20px;
     /* padding: 20px; */
 }
 
-.row {
+/* .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
+} */
 
 /* .card {
     display: flex;
@@ -20,5 +21,10 @@
 
 .price {
     max-width: 10%;
+    border: none;
+}
+
+.card-title {
+    font-size: 1.5rem;
 }
 

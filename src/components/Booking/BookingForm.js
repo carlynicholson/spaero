@@ -26,33 +26,7 @@ const BookingForm = () => {
         }).catch(function(responseError){
         console.log(responseError.code);
         });
-    
-//     useEffect(() => {
-//         fetch(`https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browseroutes/v1.0/${country}/${currency}/${locale}/${originplace}/${destinationplace}/${outboundpartialdate}?${inboundpartialdate}`, {
-// 	        "method": "GET",
-// 	        "headers": {
-// 		"x-rapidapi-host": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com",
-// 		"x-rapidapi-key": "3f8bfd2f1emsh151e3e7783f5181p1ba74ajsnac1dd39bcb48"
-// 	        }
-//         })
-// .then(response => {
-// 	console.log(response);
-// })
-// .catch(err => {
-// 	console.log(err);
-// });
-//     })
 
-    // useEffect(() => {
-    //     const callAPI = async() => {
-    //         const apiKey="3f8bfd2f1emsh151e3e7783f5181p1ba74ajsnac1dd39bcb48"
-    //         const url=`https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/search?q=&api_key=${apiKey}`
-    //         const res = await fetch(url)
-    //         const json = await res.json
-    //         console.log(json)
-    //     }
-    //     callAPI()
-    //     }, [])
     return (
         <div className="form-styling">
         <Form>

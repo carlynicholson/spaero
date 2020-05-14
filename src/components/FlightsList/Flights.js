@@ -13,7 +13,7 @@ import './Flights.css';
 export default function Flights() {
   // const [selected, setSelected] = React.useState(false);
   return (
-    <div>
+
         <CardGroup>
           <Row>
           <Card>
@@ -42,6 +42,6 @@ export default function Flights() {
             <Button>Book</Button>
           </Card>
         </CardGroup>
-    </div>
+
   );
 }
