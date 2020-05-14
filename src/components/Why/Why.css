@@ -3,6 +3,8 @@
     justify-content: space-around;
     align-content: space-around;
     text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .why-icon {
@@ -13,5 +15,7 @@
 
 .why-container {
     padding-top: 60px;
-    margin-bottom: 10px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-bottom: 4px;
 }

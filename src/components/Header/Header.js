@@ -2,18 +2,22 @@ import React from 'react';
 import './Header.css';
 
 import BookingForm from '../Booking/BookingForm';
-import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';
+import Havana from '../../assets/banner/havana.png';
+import Peru from '../../assets/banner/peru.png';
+import Japan from '../../assets/banner/japan.png';
 
 export default function Header(){
     return (
-        // <Container className="header-container">
+        <div>
+            <BookingForm />
             <Carousel>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=First slide&bg=373940"
+                    src={Peru}
                     alt="First slide"
+                    style={{ height: 500}}
                     />
                     <Carousel.Caption>
                     <h3>First slide label</h3>
@@ -23,8 +27,9 @@ export default function Header(){
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
+                    src={Havana}
                     alt="Third slide"
+                    style={{ height: 500}}
                     />
 
                     <Carousel.Caption>
@@ -35,8 +40,9 @@ export default function Header(){
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="holder.js/800x400?text=Third slide&bg=20232a"
+                    src={Japan}
                     alt="Third slide"
+                    style={{ height: 500}}
                     />
 
                     <Carousel.Caption>
@@ -45,6 +51,6 @@ export default function Header(){
                     </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>
-        // </Container>
+            </div>
     );
 };
