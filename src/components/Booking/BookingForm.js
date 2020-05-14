@@ -3,6 +3,7 @@ import './BookingForm.css';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 
 const BookingForm = () => {
     const [bookingForm, setBookingForm] = useState([])
@@ -34,16 +35,27 @@ const BookingForm = () => {
     //     callAPI()
     //     }, [])
     return (
+        <div className="form-styling">
         <Form>
             <Row className="form-row">
                 <Col className="form-col">
-                    <Form.Control placeholder="First name" />
+                    <Form.Control placeholder="From" />
                 </Col>
-                <Col>
-                    <Form.Control placeholder="Last name" />
+                <Col className="form-col">
+                    <Form.Control placeholder="To" />
+                </Col>
+                <Col className="form-col">
+                    <Form.Control placeholder="Depart" />
+                </Col>
+                <Col className="form-col">
+                    <Form.Control placeholder="Passengers" />
+                </Col>
+                <Col className="flight-search">
+                    <Button variant="outline-primary">SEARCH</Button>{' '}
                 </Col>
             </Row>
         </Form>
+        </div>
     )
 }
 

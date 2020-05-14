@@ -10,52 +10,54 @@ import Japan from '../../assets/banner/japan.png';
 export default function Header() {
     return (
         <div className="header-div">
-            
+            {/* <div className="form-overlay">
+                    <BookingForm />
+                </div> */}
             <div className="carousel-div">
-                <div className="form-overlay">
-                <BookingForm />
-                </div>
             <Carousel>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
                     src={Peru}
-                    alt="First slide"
+                    alt="Huacachina, Peru"
                     style={{ height: 500}}
                     />
                     <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    {/* <h3>First slide label</h3> */}
+                    <p>Huacachina, Peru</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
                     src={Havana}
-                    alt="Third slide"
+                    alt="Havana, Cuba"
                     style={{ height: 500}}
                     />
 
                     <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    {/* <h3>Second slide label</h3> */}
+                    <p>Havana, Cuba</p>
                     </Carousel.Caption>
                 </Carousel.Item>
+                
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
                     src={Japan}
-                    alt="Third slide"
+                    alt="Itsukushima, Japan"
                     style={{ height: 500}}
                     />
 
                     <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    {/* <h3>Third slide label</h3> */}
+                    <p>Itsukushima, Japan</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>
+                <BookingForm />
+
                 </div>
-            </div>
+        </div>
     );
 };
