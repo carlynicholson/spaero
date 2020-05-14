@@ -1,0 +1,24 @@
+.card-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 20px;
+    /* padding: 20px; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* .card {
+    display: flex;
+    flex-direction: row;
+} */
+
+.price {
+    max-width: 10%;
+}
+

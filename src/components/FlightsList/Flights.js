@@ -2,62 +2,46 @@ import React, {useState} from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
+import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
+// import CardTitle from 'react-bootstrap/CardTitle';
+// import CardSubtitle from 'react-bootstrap/CardSubtitle';
+
+import './Flights.css';
 
 
 export default function Flights() {
   // const [selected, setSelected] = React.useState(false);
   return (
     <div>
-      <Row>
-        <Card>
-          <CardTitle>07:05AM</CardTitle>
-          <CardSubtitle>JUNE 04, FRI</CardSubtitle>
-          <CardTitle>LOS ANGELES LAX</CardTitle>
-        </Card>
-        <Card>
-          <CardTitle>09:10PM</CardTitle>
-          <CardSubtitle>JUNE 06, FRI</CardSubtitle>
-          <CardTitle>ISTANBUL IST</CardTitle>
-        </Card> 
-      </Row>
-      <Row>
-        <Card>
-          <CardTitle>09:30AM</CardTitle>
-          <CardSubtitle>JUNE 20, TUE</CardSubtitle>
-          <CardTitle>ISTANBUL IST</CardTitle>
-        </Card>
-        <Card>
-          <CardTitle>12:30AM</CardTitle>
-          <CardSubtitle>JUNE 22, THU</CardSubtitle>
-          <CardTitle>LOS ANGELES LAX</CardTitle>
-        </Card> 
-      </Row>
+        <CardGroup>
+          <Row>
+          <Card>
+            <Card.Title>07:05AM</Card.Title>
+            <Card.Subtitle>JUNE 04, FRI</Card.Subtitle>
+            <Card.Title>LOS ANGELES LAX</Card.Title>
 
-      <Row>
-        <Card>
-          <CardTitle>07:05AM</CardTitle>
-          <CardSubtitle>JUNE 04, FRI</CardSubtitle>
-          <CardTitle>LOS ANGELES LAX</CardTitle>
-        </Card>
-        <Card>
-          <CardTitle>09:10PM</CardTitle>
-          <CardSubtitle>JUNE 06, FRI</CardSubtitle>
-          <CardTitle>ISTANBUL IST</CardTitle>
-        </Card> 
-      </Row>
-      <Row>
-        <Card>
-          <CardTitle>09:30AM</CardTitle>
-          <CardSubtitle>JUNE 20, TUE</CardSubtitle>
-          <CardTitle>ISTANBUL IST</CardTitle>
-        </Card>
-        <Card>
-          <CardTitle>12:30AM</CardTitle>
-          <CardSubtitle>JUNE 22, THU</CardSubtitle>
-          <CardTitle>LOS ANGELES LAX</CardTitle>
-        </Card> 
-      </Row>
+            <Card.Title>09:10PM</Card.Title>
+            <Card.Subtitle>JUNE 06, FRI</Card.Subtitle>
+            <Card.Title>ISTANBUL IST</Card.Title>
+          </Card> 
+        </Row>
+        <Row>
+          <Card>
+            <Card.Title>09:30AM</Card.Title>
+            <Card.Subtitle>JUNE 20, TUE</Card.Subtitle>
+            <Card.Title>ISTANBUL IST</Card.Title>
+
+            <Card.Title>12:30AM</Card.Title>
+            <Card.Subtitle>JUNE 22, THU</Card.Subtitle>
+            <Card.Title>LOS ANGELES LAX</Card.Title>
+          </Card>
+          </Row>
+          <Card className="price">
+            <Card.Title>$934</Card.Title>
+            <Button>Book</Button>
+          </Card>
+        </CardGroup>
     </div>
   );
 }
