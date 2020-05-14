@@ -7,10 +7,14 @@ import Havana from '../../assets/banner/havana.png';
 import Peru from '../../assets/banner/peru.png';
 import Japan from '../../assets/banner/japan.png';
 
-export default function Header(){
+export default function Header() {
     return (
-        <div>
-            <BookingForm />
+        <div className="header-div">
+            
+            <div className="carousel-div">
+                <div className="form-overlay">
+                <BookingForm />
+                </div>
             <Carousel>
                 <Carousel.Item>
                     <img
@@ -51,6 +55,7 @@ export default function Header(){
                     </Carousel.Caption>
                 </Carousel.Item>
                 </Carousel>
+                </div>
             </div>
     );
 };
