@@ -14,11 +14,11 @@ export default function FlightListItem(props) {
       <Row className="flights-row">
         <Card className="a">
           <div className="flights">
-            <h6>${props.element.QuoteDateTime}</h6>
-            <h5>${universalProps.flight.origin}</h5>
+            <h6>{props.element.QuoteDateTime}</h6>
+            <h5>{universalProps.flight.origin}</h5>
           </div>
           <div className="flights">
-            <h5>${universalProps.flight.destination}</h5>
+            <h5>{universalProps.flight.destination}</h5>
           </div>
         </Card>
       </Row>
