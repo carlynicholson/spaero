@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 var Amadeus = require('amadeus');
 
 const BookingForm = () => {
-    const [bookingForm, setBookingForm] = useState([])
+    // const [bookingForm, setBookingForm] = useState([])
 
 
     var amadeus = new Amadeus({
