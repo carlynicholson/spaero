@@ -43,6 +43,15 @@
 
 .book-button {
     width: 80px;
+    color: #FFFFFF;
+    border-color: #B1D5C3;
+    background-color: #B1D5C3;
+}
+
+.book-button:hover {
+    color: #FFFFFF;
+    border-color: transparent;
+    background-color: rgba(177, 213, 195, 0.7);
 }
   
 @media screen and (max-width: 767px){

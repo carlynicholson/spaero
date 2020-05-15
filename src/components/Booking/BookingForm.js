@@ -47,7 +47,7 @@ const BookingForm = () => {
                     <Form.Control placeholder="Passengers" />
                 </Col>
                 <Col className="flight-search">
-                    <Button variant="outline-primary">SEARCH</Button>{' '}
+                    <Button variant="outline-primary">Search</Button>{' '}
                 </Col>
             </Row>
         </Form>
