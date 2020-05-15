@@ -5,6 +5,11 @@
       "c b";
     margin: 20px;
 }
+
+.list-group {
+    margin-left: 100px;
+    margin-right: 100px;
+}
   
 .flights-row {
     display: flex;

@@ -14,6 +14,6 @@ export default function Flights() {
     )
   })
   return(
-  <div>{destinationsArr}</div>
+  <div className="list-group">{destinationsArr}</div>
   )
 }
