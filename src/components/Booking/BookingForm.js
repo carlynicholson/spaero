@@ -42,7 +42,7 @@ try {
         <Row className="form-row">
           <Col className="form-col">
             <Form.Control
-              placeholder="From"
+              placeholder="Origin"
               name="origin"
               value={universalProps.flight.origin}
               onChange={handleChange}
@@ -50,7 +50,7 @@ try {
           </Col>
           <Col className="form-col">
             <Form.Control
-              placeholder="To"
+              placeholder="Destination"
               name="destination"
               value={universalProps.flight.destination}
               onChange={handleChange}
