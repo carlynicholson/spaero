@@ -1,27 +1,22 @@
 # Project Overview
 
 ## Project Links
-
-- deployment link
+- [deployment link](https://spaero.netlify.app/)
 - [frontend repo link](https://github.com/carlynicholson/spaero-frontend)
-- [backend repo link](https://github.com/carlynicholson/spaero-backend)
 
 ## Project Description
-
 For my project, I'll be building out a flight booking app. It will search flights offered by multiple carriers, and deals offered on other travel booking sites.  
 
 [Example](https://www.skyscanner.com/)
 
 
 ## API
-
 I'll be using the [Skyscanner Flight Search](https://rapidapi.com/skyscanner/api/skyscanner-flight-search) API to pull flight data, including quotes, places, carriers, and currencies.
 
 I'll also utilize the [City Geo-Location Lookup](https://rapidapi.com/dev132/api/city-geo-location-lookup/) API for imroved UX purposes. 
 
 
 ## Wireframes
-
 [Homepage](https://res.cloudinary.com/df6sigxz7/image/upload/v1588967613/spaero/planning/home.png)
 
 [Booking page](https://res.cloudinary.com/df6sigxz7/image/upload/v1588967612/spaero/planning/booking.png)

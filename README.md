@@ -1,6 +1,7 @@
 ## Spaero
 This project uses the Skyscanner Flights API to allow users to search for desired flights. 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7bde9445-ff64-4494-9812-5d4eabcc93ef/deploy-status)](https://app.netlify.com/sites/spaero/deploys)
 
 ## Screenshots
 ![Preview of Project](https://res.cloudinary.com/df6sigxz7/image/upload/v1589998915/spaero/spaero.png "Preview of Project")
