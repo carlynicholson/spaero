@@ -1,4 +1,67 @@
-.nav-container {
+nav {
+    background: transparent;
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.nav-links {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 0 auto;
+    max-height: 100%;
+}
+
+.nav {
+    font-family: "Muli", sans-serif;
+    font-size: 17px;
+    margin-left: 10px;
+    color: #58595E;
+}
+
+.tag {
+    font-family: "Muli", sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #797A7E;
+}
+
+.logo {
+    height: 30px;
+}
+
+@media (min-width: 576px) {
+    .container, .container-sm {
+    max-width: 100%;
+}}
+
+
+/* <Container className="nav-container">
+    <Link to={'/'} style={{textDecoration: 'none'}}>
+        <img className="logo" src={Spaero} alt={'logo'}/>
+        <p className="nav">Spaero</p>
+        <p className="tag">Book a flight</p>
+    </Link>
+</Container> */
+
+/* <Link to={'/'} style={{textDecoration: 'none'}}>
+    <Container className="nav-container">
+        <img className="logo" src={Spaero} alt={'logo'}/>
+        <p className="nav">Spaero</p>
+        <p className="tag">Book a flight</p>
+    </Container>
+</Link> */
+
+/* .nav-container {
     background: transparent;
     height: 60px;
     width: 100%;
@@ -10,20 +73,4 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-}
-
-.nav {
-    font-family: "Muli", sans-serif;
-    font-size: 17px;
-    margin-left: 10px;
-    color: #65534C;
-}
-
-.logo {
-    height: 30px;
-}
-
-@media (min-width: 576px) {
-    .container, .container-sm {
-    max-width: 100%;
-}}
+} */

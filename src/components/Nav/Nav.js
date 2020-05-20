@@ -1,15 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
 import './Nav.css';
 import '../../style.css';
 
-import Container from 'react-bootstrap/Container';
 import Spaero from '../../assets/icons/spaero.png';
 
 export default function Nav(){
     return (
-        <Container className="nav-container">
-            <img className="logo" src={ Spaero }></img>
-            <p className="nav">Book A Flight</p>
-        </Container>
+        <nav>
+            <Link to={'/'} className="nav-links" style={{textDecoration: 'none'}}>
+                <img className="logo" src={Spaero} alt={'logo'}/>
+                <p className="nav">Spaero</p>
+                <p className="tag">Book a flight</p>
+            </Link>
+        </nav>
     );
 };

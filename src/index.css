@@ -1,14 +1,14 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #4d4643;
+  color: #58595E;
 }
 
 a {
-  color: #f03c02;
+  color: #78C49A;
 }
 
 a:hover {
-  color: #fd5c28;
+  color: #B1D5C3;
   text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ section {
   font-weight: 300;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #65534c;
+  color: #58595E;
 }
 
 .section-title h2 strong {
