@@ -9,12 +9,9 @@ import Japan from '../../assets/banner/japan.png';
 
 export default function Header() {
     return (
-        <div className="header-div">
-            {/* <div className="form-overlay">
-                    <BookingForm />
-                </div> */}
-            <div className="carousel-div">
+        <div className="carousel-div">
             <Carousel>
+
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
@@ -23,10 +20,10 @@ export default function Header() {
                     style={{ height: 500}}
                     />
                     <Carousel.Caption>
-                    {/* <h3>First slide label</h3> */}
                     <p>Huacachina, Peru</p>
                     </Carousel.Caption>
                 </Carousel.Item>
+
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
@@ -36,7 +33,6 @@ export default function Header() {
                     />
 
                     <Carousel.Caption>
-                    {/* <h3>Second slide label</h3> */}
                     <p>Havana, Cuba</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -50,14 +46,13 @@ export default function Header() {
                     />
 
                     <Carousel.Caption>
-                    {/* <h3>Third slide label</h3> */}
                     <p>Itsukushima, Japan</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                </Carousel>
-                <BookingForm />
 
-                </div>
+            </Carousel>
+
+            <BookingForm />
         </div>
     );
 };
