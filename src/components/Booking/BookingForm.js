@@ -1,10 +1,10 @@
-import React, { useState, useContext } from "react";
-import "./BookingForm.css";
-import Form from "react-bootstrap/Form";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import {UniversalProps} from "../../App";
+import React, { useState, useContext } from 'react';
+import './BookingForm.css';
+import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
+import {UniversalProps} from '../../App';
 import history from '../../history';
 
 const BookingForm = (props) => {
