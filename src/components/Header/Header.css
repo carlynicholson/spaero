@@ -6,6 +6,12 @@
     text-align: center;
 }
 
+/* img.d-block.w-100 {
+    background: linear-gradient(rgba(88,89,94,0.5),rgba(88,89,94,0.5));
+    background-blend-mode: overlay;
+    
+} */
+
 @media (min-width: 576px) {
     .container, .container-sm {
     max-width: 100%;

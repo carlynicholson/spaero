@@ -17,20 +17,20 @@ export default function Why(){
             <div className="section-title" data-aos="fade-up">
                 <h2>Why Book With Us</h2>
             </div>
-            <Row>
-                <Col>
+            <Row className="why-row">
+                <Col className="why-column">
                     <img className="why-icon" src={Trophy}></img>
                     <h5>We're awesome</h5>
                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
                 </Col>
 
-                <Col>
+                <Col className="why-column">
                     <img className="why-icon" src={Mom}></img>
                     <h5>Moms love us</h5>
                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
                 </Col>
 
-                <Col>
+                <Col className="why-column">
                     <img className="why-icon" src={Health}></img>
                     <h5>It's good for you</h5>
                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>

@@ -17,7 +17,7 @@ export default function Header() {
                     className="d-block w-100"
                     src={Peru}
                     alt="Huacachina, Peru"
-                    style={{ height: 500}}
+                    style={{ height: 500 }}
                     />
                     <Carousel.Caption>
                     <p>Huacachina, Peru</p>
@@ -29,7 +29,7 @@ export default function Header() {
                     className="d-block w-100"
                     src={Havana}
                     alt="Havana, Cuba"
-                    style={{ height: 500}}
+                    style={{ height: 500 }}
                     />
 
                     <Carousel.Caption>
@@ -42,7 +42,7 @@ export default function Header() {
                     className="d-block w-100"
                     src={Japan}
                     alt="Itsukushima, Japan"
-                    style={{ height: 500}}
+                    style={{ height: 500 }}
                     />
 
                     <Carousel.Caption>
