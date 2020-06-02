@@ -39,4 +39,19 @@ form {
     color: #FFFFFF;
     border-color: transparent;
     background-color: rgba(177, 213, 195, 0.5);
+    box-shadow: none;
 }
+
+.btn-outline-primary:focus {
+    color: #FFFFFF;
+    border-color: transparent;
+    background-color: rgb(177, 213, 195);
+    box-shadow: none;
+}
+
+/* .btn-outline-primary:scope {
+    color: #FFFFFF;
+    border-color: transparent;
+    background-color: rgb(177, 213, 195);
+    box-shadow: none;
+} */
